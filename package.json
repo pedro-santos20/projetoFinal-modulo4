@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "restaurante",
+  "version": "1.0.0",
+  "description": "Projeto final de modulo - Resilia Educacao",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Santos",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "moment": "^2.29.1",
+    "sqlite3": "^5.0.2"
+  }
+}
