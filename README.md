@@ -48,11 +48,12 @@ Atualmente, há somente a rota `/pedidos`
 Com essa rota, é capaz de rodar todas as operações CRUD:
 
 |Método|Rota|Descrição|
+| -----| -----| -----------|
 |**GET** | */pedido* | Mostra todos os pedidos|
-|**GET** | */pedido/numero_pedido* | Mostra o pedido do número escolhido|
-|**PUT** | /pedido | Atualiza o pedido|
-|**POST** | /pedido/numero_pedido | Cria um novo pedido|
-|**DELETE** | /pedido/numero_pedido | Deleta o pedido|
+|**GET** | */pedido/{numero_pedido}* | Mostra o pedido do número escolhido|
+|**PUT** | */pedido*| Atualiza o pedido|
+|**POST** | */pedido/numero_pedido* | Cria um novo pedido|
+|**DELETE** | */pedido/numero_pedido* | Deleta o pedido|
 
 
 Projeto desenvolvido por [Pedro Santos](https://github.com/pedro-santos20)
