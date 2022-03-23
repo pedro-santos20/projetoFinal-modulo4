@@ -60,8 +60,8 @@ Com essa rota, é capaz de rodar todas as operações CRUD:
 | -----| -----| -----------|
 |**GET** | */pedido* | Mostra todos os pedidos|
 |**GET** | */pedido/{numero_pedido}* | Mostra o pedido do número escolhido|
-|**PUT** | */pedido*| Atualiza o pedido|
-|**POST** | */pedido/{numero_pedido}* | Cria um novo pedido|
+|**PUT** | */pedido/{numero_pedido}*| Atualiza o pedido|
+|**POST** | */pedido/* | Cria um novo pedido|
 |**DELETE** | */pedido/{numero_pedido}* | Deleta o pedido|
 
 
