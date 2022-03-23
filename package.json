@@ -2,10 +2,11 @@
   "type": "module",
   "name": "restaurante",
   "version": "1.0.0",
-  "description": "Projeto final de modulo - Resilia Educacao",
+  "description": "Projeto final do modulo 4 - Resilia Educacao",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "create": "node ./src/infra/create-db.js",
+    "start": "nodemon ./src/server.js"
   },
   "author": "Pedro Santos",
   "license": "ISC",

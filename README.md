@@ -1,3 +1,7 @@
+## Status do projeto:
+
+![badge](https://img.shields.io/badge/Projeto-Concluído-red)
+
 ## Descrição:
 
 Projeto Final do módulo 4 do curso de Web Dev Full Stack para a [Resilia Educação](https://www.resilia.com.br/).
@@ -36,9 +40,14 @@ Nessa aplicação, foram usadas as ferramentas NodeJs / Nodemon, Express e SQLit
 
     npm install
 
+- Inicie o Banco de Dados:
+
+    npm run create
+
 - Inicie o servidor:
 
-    npm run dev
+    npm run start
+
 
 ## Rotas:
 
@@ -52,8 +61,8 @@ Com essa rota, é capaz de rodar todas as operações CRUD:
 |**GET** | */pedido* | Mostra todos os pedidos|
 |**GET** | */pedido/{numero_pedido}* | Mostra o pedido do número escolhido|
 |**PUT** | */pedido*| Atualiza o pedido|
-|**POST** | */pedido/numero_pedido* | Cria um novo pedido|
-|**DELETE** | */pedido/numero_pedido* | Deleta o pedido|
+|**POST** | */pedido/{numero_pedido}* | Cria um novo pedido|
+|**DELETE** | */pedido/{numero_pedido}* | Deleta o pedido|
 
 
 Projeto desenvolvido por [Pedro Santos](https://github.com/pedro-santos20)
