@@ -5,7 +5,7 @@
   "description": "Projeto final do modulo 4 - Resilia Educacao",
   "main": "server.js",
   "scripts": {
-    "create": "node ./src/infra/create-db.js",
+    "create": "node src/infra/create-db.js",
     "start": "nodemon ./src/server.js"
   },
   "author": "Pedro Santos",
@@ -14,5 +14,14 @@
     "cors": "^2.8.5",
     "moment": "^2.29.1",
     "sqlite3": "^5.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedro-santos20/projetoFinal-modulo4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pedro-santos20/projetoFinal-modulo4/issues"
+  },
+  "homepage": "https://github.com/pedro-santos20/projetoFinal-modulo4#readme"
 }
