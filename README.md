@@ -1,9 +1,8 @@
 ## Descrição:
 
-<p>
 Projeto Final do módulo 4 do curso de Web Dev Full Stack para a [Resilia Educação](https://www.resilia.com.br/).
 Nessa aplicação, foram usadas as ferramentas NodeJs / Nodemon, Express e SQLite para criar uma ferramenta que gera e administra pedidos do restaurante, além de possuir sistema de delivery.
-</p>
+
 
 ## Ferramentas utilizadas:
 
